@@ -71,3 +71,14 @@ input[name="r"]{
 #r5:checked ~ .s1{
     margin-left: -80%;
 }
+@media screen and (max-width:420px) {
+    .slider{
+    max-width: 275px;
+    max-height: 125px;
+    }
+    .navigation__wrapper{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    }
+    }
